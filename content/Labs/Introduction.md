@@ -12,7 +12,7 @@ The mdBook accessed outside of blackboard and is mobile and tablet friendly. :
 </td>
 <td>
 
-<img src="https://chart.googleapis.com/chart?cht=qr&chl=https%4A%2F%2Fgithub.com%2Fcccu-uk%2FU10814_NOS_Exercises&chs=180x180&choe=UTF-8&chld=L|2" rel="nofollow" alt="qr code"><a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"></a>
+<a href="www.qr-code-generator.com/" border="0" style="cursor:default" rel="nofollow"><img src="https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fcccu-uk.github.io%2FU10814_NOS_Exercises%2FLabs%2FIntroduction.html&chs=180x180&choe=UTF-8&chld=L|2"></a>
 
 </td>
 </tr>
