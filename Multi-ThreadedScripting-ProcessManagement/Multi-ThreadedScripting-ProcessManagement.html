@@ -171,7 +171,7 @@
 <p><strong>Important</strong></p>
 <blockquote>
 <ul>
-<li>Go to Jupyter Hub <a href="https://jupyterhub.canterbury.ac.uk/hub/spawn">https://jupyterhub.canterbury.ac.uk/hub/spawn</a> and open a terminal.</li>
+<li>Go to Jupyter Hub <a href="https://jupyterhub.canterbury.ac.uk/hub/">https://jupyterhub.canterbury.ac.uk/hub/</a> and open a terminal.</li>
 <li>or if you have your own linux CLI open one up.</li>
 </ul>
 </blockquote>
@@ -215,17 +215,17 @@ $
 </ol>
 </details>
 <p>Run again but this time append <code>echo</code> with <code>$</code> you will see proof of this, your PIDs may differ.</p>
-<pre><code class="language-sh">$ echo $
+<pre><code class="language-sh">$ echo $$
 220250
 </code></pre>
 <pre><code class="language-sh">$ bash
-$ echo $
+$ echo $$
 222629
 </code></pre>
 <pre><code class="language-sh">$ exit
 exit
 </code></pre>
-<pre><code>$ echo $
+<pre><code>$ echo $$
 220250
 </code></pre>
 <p>There is a special variable in bash <code>$$</code>, which contains the <strong>PID</strong> of the current shell in use. </p>
