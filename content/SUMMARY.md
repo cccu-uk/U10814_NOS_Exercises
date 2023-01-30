@@ -4,8 +4,8 @@
 This book, will be continually updated with new documentation and labs for use in U10814 NOS.
 
 - [Labs](./Labs/Introduction.md)
-  -  [Learning C](./Learning_C/Learning_C.md)
   - [Multi-Threaded Scripting & Process Management](./Multi-ThreadedScripting-ProcessManagement/Multi-ThreadedScripting-ProcessManagement.md)
+  - [Learning C](./Learning_C/Learning_C.md)
   - [System Calls]()
 
 ----
