@@ -57,7 +57,7 @@ $
 
 </details>
 
-Run again but this time append `echo` with `$` you will see proof of this, your PIDs may differ.
+Run again but this time append `echo` with `$$` you will see proof of this, your PIDs may differ.
 
 ```sh
 $ echo $$
