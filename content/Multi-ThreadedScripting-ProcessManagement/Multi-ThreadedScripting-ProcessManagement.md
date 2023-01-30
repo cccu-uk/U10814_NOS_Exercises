@@ -14,7 +14,7 @@ For example, does your computer have 2 CPU threads or more (many modern machines
 Some information related to the format of this lab:
 
 >**Important**
->> - Go to Jupyter Hub [https://jupyterhub-dev.canterbury.ac.uk/](https://jupyterhub-dev.canterbury.ac.uk/) and open a terminal.
+>> - Go to Jupyter Hub [https://jupyterhub.canterbury.ac.uk/hub/spawn](https://jupyterhub.canterbury.ac.uk/hub/spawn) and open a terminal.
 >> - or if you have your own linux CLI open one up.
 
 >> **Naming Conventions**
