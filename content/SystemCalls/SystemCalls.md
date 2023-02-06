@@ -83,6 +83,11 @@ $ nano fork_execv.c
 Reprodce the code:
 
 ```c
+#include <unistd.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+
 void main(char *path, char *argv[]) 
 { 
     int pid = fork(); 
