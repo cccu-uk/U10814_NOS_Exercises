@@ -449,7 +449,7 @@ Create a new file called `signals.c`
 nano signals.c
 ```
 
-````c
+```c
 #include <stdio.h>
 #include <unistd.h>
 #include <signal.h>
