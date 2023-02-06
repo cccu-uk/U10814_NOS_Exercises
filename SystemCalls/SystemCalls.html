@@ -188,7 +188,7 @@ Prerequistes: <a href="../Learning_C/Learning_C.html">Learning C</a></p>
 int main()
 {
   printf(&quot;ps with execlp\n&quot;);
-  execlp(&quot;ps&quot;, &quot;ps&quot;, 0);
+  execlp(&quot;ps&quot;, &quot;ps&quot;, 0); //if error do NULL instead of 0 
   printf(&quot;Done.\n&quot;);
   exit(0);
 }
@@ -219,7 +219,12 @@ int main()
 <pre><code class="language-sh">$ nano fork_execv.c
 </code></pre>
 <p>Reprodce the code:</p>
-<pre><code class="language-c">void main(char *path, char *argv[]) 
+<pre><code class="language-c">#include &lt;unistd.h&gt;
+#include &lt;stdio.h&gt;
+#include &lt;stdlib.h&gt;
+
+
+void main(char *path, char *argv[]) 
 { 
     int pid = fork(); 
     if (pid == 0) 
