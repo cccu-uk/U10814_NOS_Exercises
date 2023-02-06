@@ -29,7 +29,7 @@ Reproduce the following code:
 int main()
 {
   printf("ps with execlp\n");
-  execlp("ps", "ps", 0);
+  execlp("ps", "ps", 0); //if error do NULL instead of 0 
   printf("Done.\n");
   exit(0);
 }
