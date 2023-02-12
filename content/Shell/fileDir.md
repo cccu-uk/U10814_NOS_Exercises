@@ -2,20 +2,13 @@
 
 #### Questions:
 > - How can I move around on my computer?
->>
 > - How can I see what files and directories I have?
->>
 > - How can I specify the location of a file or directory on my computer?
 
 #### Objectives:
 > - Explain the similarities and differences between a file and a directory.
->>
 > - Translate an absolute path into a relative path and vice versa.
->>
->- Construct absolute and relative paths that identify specific files and directories.
->>
 > - Use options and arguments to change the behaviour of a shell command.
->>
 > - Demonstrate the use of tab completion and explain its advantages.
 
 #### TL;DR:
@@ -25,27 +18,16 @@
 <p></p>
 
 > - The file system is responsible for managing information on the disk.
->>
 > - Information is stored in files, which are stored in directories (folders).
->>
 > - Directories can also store other directories, which then form a directory tree.
->>
 > - `pwd` prints the user's current working directory.
->>
 > - `ls [path]` prints a listing of a specific file or directory; `ls` on its own lists the current working directory.
->>
 > - `cd [path]` changes the current working directory.
->>
 > - Most commands take options that begin with a single `-`.
->>
 > - Directory names in a path are separated with `/` on Unix, but `\\` on Windows.
->>
 > - `/` on its own is the root directory of the whole file system.
->>
 > - An absolute path specifies a location from the root of the file system.
->>
 > - A relative path specifies a location starting from the current location.
->>
 > - `.` on its own means 'the current directory'; `..` means 'the directory above the current one'.
 </details>
 
@@ -206,7 +188,7 @@ Mandatory arguments to long options are mandatory for short options, too.
       --color[=WHEN]         colorize the output; WHEN can be 'always' (default
                                if omitted), 'auto', or 'never'; more info below
   -d, --directory            list directories themselves, not their contents
-  -D, --dired                generate output designed for Emacs' dired mode
+  -D, --dired                generate output designed for 'Emacs' dired mode
   -f                         do not sort, enable -aU, disable -ls --color
   -F, --classify             append indicator (one of */=>@|) to entries
 ...        ...        ...

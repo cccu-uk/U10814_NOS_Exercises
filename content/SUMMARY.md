@@ -7,6 +7,7 @@ This book, will be continually updated with new documentation and labs for use i
   - [Multi-Threaded Scripting & Process Management](./Multi-ThreadedScripting-ProcessManagement/Multi-ThreadedScripting-ProcessManagement.md)
   - [Learning C](./Learning_C/Learning_C.md)
   - [System Calls](./SystemCalls/SystemCalls.md)
+  - [Exploring Directories](./Exploring_Directories/Exploring_Directories.md)
 
 ----
 - [Shell](./Shell/shell.md)
