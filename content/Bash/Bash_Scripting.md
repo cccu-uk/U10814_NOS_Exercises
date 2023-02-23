@@ -97,6 +97,7 @@ So you can see that the `#!` is only operated on when the script is run as an ex
    ```sh
    #! /usr/bin/env bash
    A=2334                   # Integer... though still a string
+   echo "A = ${A} "           # a = 2335
    A=$(( ${A} + 1 )) # increment A by 1.
    echo "A = ${A} "           # a = 2335
    echo                     # Integer, still.
@@ -116,7 +117,7 @@ So you can see that the `#!` is only operated on when the script is run as an ex
                             # This transforms $b into a string.
    echo "B = ${B}"          # B = BB35
    declare -i B             # Declaring it an integer doesn't help.
-   echo "B = ${b}"          # B = BB35
+   echo "B = ${B}"          # B = BB35
 
    B=$(( ${B} + 1 ))        # BB35 + 1
    echo "B = $B"            # B = 1
