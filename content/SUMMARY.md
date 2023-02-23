@@ -8,6 +8,7 @@ This book, will be continually updated with new documentation and labs for use i
   - [Learning C](./Learning_C/Learning_C.md)
   - [System Calls](./SystemCalls/SystemCalls.md)
   - [Exploring Directories](./Exploring_Directories/Exploring_Directories.md)
+  - [Bash Scripting](./Bash/Bash_Scripting.md)
 
 ----
 - [Shell](./Shell/shell.md)
