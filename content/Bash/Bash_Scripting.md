@@ -37,7 +37,7 @@
 5. Modify the file's mode bits so that it becomes an executable 
    ```sh
    $ ls -l
-   $ chomd +x script.sh
+   $ chmod +x script.sh
    $ ls -l
    ```
    - performing `ls -l` either side of the `chmod` command shows the information about the file such as its mode bits.
