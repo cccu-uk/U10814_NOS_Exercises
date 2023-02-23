@@ -274,6 +274,7 @@ Goodbye World!
 <li>Reproduce the following:
 <pre><code class="language-sh">#! /usr/bin/env bash
 A=2334                   # Integer... though still a string
+echo &quot;A = ${A} &quot;           # a = 2335
 A=$(( ${A} + 1 )) # increment A by 1.
 echo &quot;A = ${A} &quot;           # a = 2335
 echo                     # Integer, still.
@@ -300,7 +301,7 @@ A = 2335
                          # This transforms $b into a string.
 echo &quot;B = ${B}&quot;          # B = BB35
 declare -i B             # Declaring it an integer doesn't help.
-echo &quot;B = ${b}&quot;          # B = BB35
+echo &quot;B = ${B}&quot;          # B = BB35
 
 B=$(( ${B} + 1 ))        # BB35 + 1
 echo &quot;B = $B&quot;            # B = 1
