@@ -10,6 +10,7 @@ This book, will be continually updated with new documentation and labs for use i
   - [Exploring Directories](./Exploring_Directories/Exploring_Directories.md)
   - [Bash Scripting](./Bash/Bash_Scripting.md)
   - [Shell Commands](./Shell_Commands/Shell_Commands.md)
+  - [Redirection](./Redirection/Redirection.md)
 ----
 - [Shell](./Shell/shell.md)
   - [Installation](./Shell/installation.md)
