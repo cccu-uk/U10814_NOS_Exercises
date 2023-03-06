@@ -272,13 +272,13 @@ and fill with the following code:
 #! /usr/bin/env bash
 while read VAL; do   
   NAME=$(echo $VAL | awk -F  ":" '/1/ {print $1}' )
-  if [[ $NAME -eq $(cat < uname.log | awl 'NR==2') ]];then
+  if [[ $NAME -eq $(cat < uname.log | awk 'NR==2') ]];then
    echo "User spotted"
    break
 done < /etc/passwd
 ```
 
-If you have followed this lab exactly,  `$(cat < uname.log | awl 'NR==2')` should contain your system username.
+If you have followed this lab exactly,  `$(cat < uname.log | awk 'NR==2')` should contain your system username.
 
 This is not an optimal way to achieve the task of finding the user but for demonstration purposes, this will do.
 
