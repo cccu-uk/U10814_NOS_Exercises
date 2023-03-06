@@ -275,6 +275,7 @@ while read VAL; do
   if [[ $NAME -eq $(cat < uname.log | awk 'NR==2') ]];then
    echo "User spotted"
    break
+  fi
 done < /etc/passwd
 ```
 
