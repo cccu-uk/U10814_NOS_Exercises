@@ -241,7 +241,7 @@ $ wc -l 0< uname.log
 You can combine the input and output redirection operators as shown below.
 
 ```sh
-wc -l < uname.txt &> wc.op
+wc -l < uname.log &> wc.op
 ```
 
 **Output:**
