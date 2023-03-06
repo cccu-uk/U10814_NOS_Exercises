@@ -30,9 +30,8 @@ You can see the file descriptors in `/dev` directory:
 
 Stdin (FD0) gets input from the keyboard. stdout (FD1) and stderr (FD2) are sent to the terminal. When using Pipes and Redirections, you can change the way where input is passed from and output and errors are sent to.
 
-> The proc filesystem is a pseudo-filesystem which provides an
-> interface to kernel data structures.  It is commonly mounted at
-> `/proc.`
+> The `proc` filesystem is a pseudo-filesystem which provides an
+> interface to kernel data structures.  It is commonly mounted at `/proc.`
 
 ------------------------
 
