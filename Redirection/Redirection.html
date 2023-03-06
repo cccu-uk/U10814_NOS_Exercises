@@ -332,12 +332,12 @@ Character Devices (<code>c</code>) which are devices which transfer data in char
 <pre><code class="language-sh">#! /usr/bin/env bash
 while read VAL; do   
   NAME=$(echo $VAL | awk -F  &quot;:&quot; '/1/ {print $1}' )
-  if [[ $NAME -eq $(cat &lt; uname.log | awl 'NR==2') ]];then
+  if [[ $NAME -eq $(cat &lt; uname.log | awk 'NR==2') ]];then
    echo &quot;User spotted&quot;
    break
 done &lt; /etc/passwd
 </code></pre>
-<p>If you have followed this lab exactly,  <code>$(cat &lt; uname.log | awl 'NR==2')</code> should contain your system username.</p>
+<p>If you have followed this lab exactly,  <code>$(cat &lt; uname.log | awk 'NR==2')</code> should contain your system username.</p>
 <p>This is not an optimal way to achieve the task of finding the user but for demonstration purposes, this will do.</p>
 <p>Now, make the script executable and run it:</p>
 <pre><code class="language-sh">$ chmod +x alertUser.sh
