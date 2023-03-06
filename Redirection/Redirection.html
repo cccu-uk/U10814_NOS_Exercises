@@ -332,8 +332,7 @@ Character Devices (<code>c</code>) which are devices which transfer data in char
 <pre><code class="language-sh">#! /usr/bin/env bash
 while read VAL; do   
   NAME=$(echo $VAL | awk -F  &quot;:&quot; '/1/ {print $1}' )
-  if [[ $NAME = $(cat &lt; uname.log | awl 'NR==2') ]]
-  then
+  if [[ $NAME -eq $(cat &lt; uname.log | awl 'NR==2') ]];then
    echo &quot;User spotted&quot;
    break
 done &lt; /etc/passwd
