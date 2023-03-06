@@ -272,8 +272,7 @@ and fill with the following code:
 #! /usr/bin/env bash
 while read VAL; do   
   NAME=$(echo $VAL | awk -F  ":" '/1/ {print $1}' )
-  if [[ $NAME = $(cat < uname.log | awl 'NR==2') ]]
-  then
+  if [[ $NAME -eq $(cat < uname.log | awl 'NR==2') ]];then
    echo "User spotted"
    break
 done < /etc/passwd
