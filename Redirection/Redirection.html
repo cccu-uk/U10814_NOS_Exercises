@@ -335,6 +335,7 @@ while read VAL; do
   if [[ $NAME -eq $(cat &lt; uname.log | awk 'NR==2') ]];then
    echo &quot;User spotted&quot;
    break
+  fi
 done &lt; /etc/passwd
 </code></pre>
 <p>If you have followed this lab exactly,  <code>$(cat &lt; uname.log | awk 'NR==2')</code> should contain your system username.</p>
