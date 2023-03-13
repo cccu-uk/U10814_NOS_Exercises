@@ -11,6 +11,7 @@ This book, will be continually updated with new documentation and labs for use i
   - [Bash Scripting](./Bash/Bash_Scripting.md)
   - [Shell Commands](./Shell_Commands/Shell_Commands.md)
   - [Redirection](./Redirection/Redirection.md)
+  - [Man-Pages](./ManPages/ManPages.md)
 ----
 - [Shell](./Shell/shell.md)
   - [Installation](./Shell/installation.md)
